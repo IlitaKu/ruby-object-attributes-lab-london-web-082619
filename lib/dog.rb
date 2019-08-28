@@ -6,5 +6,5 @@ class Dog
     @name
   end
 end
-Dog.new("Snoopy")
-puts
+dog = Dog.new("Snoopy")
+puts dog.name
